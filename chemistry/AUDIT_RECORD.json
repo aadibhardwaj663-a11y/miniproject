@@ -1,0 +1,26 @@
+{
+  "structures_n": 20,
+  "pubchem_gcnpath_records": 18,
+  "pubchem_manual_records": 2,
+  "inchi_key_matches": 20,
+  "unique_inchikeys": 20,
+  "unique_scaffolds": 20,
+  "fingerprint": "Morgan radius2 1024 bit non-chiral",
+  "five_seed_modes": [
+    "cell",
+    "drug",
+    "both"
+  ],
+  "metric_rows": 105,
+  "response_prediction_rows": 10000,
+  "seed_list": [
+    107,
+    207,
+    307,
+    407,
+    507
+  ],
+  "model_fixed_parameters": "Ridge alpha100 lsqr tol 1e-4; target fixed before new chemistry evaluation",
+  "assay_reagent_form": "unverified",
+  "source": "https://github.com/MinhoLee-DGU/GCNPath2026/blob/main/data/drug_data/SMILES_GDSC.csv"
+}

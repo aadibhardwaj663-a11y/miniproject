@@ -1,0 +1,21 @@
+drug_group,source_gdsc_drug_ids,canonical_smiles,inchikey,pubchem_cid,source_url,lookup_hint,review_status
+mg-132,1862,,,,,"https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/mg-132/property/SMILES,InChIKey/JSON",UNVERIFIED: requires human check of compound formulation/stereochemistry
+camptothecin,1003,,,,,"https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/camptothecin/property/SMILES,InChIKey/JSON",UNVERIFIED: requires human check of compound formulation/stereochemistry
+5-fluorouracil,1073,,,,,"https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/5-fluorouracil/property/SMILES,InChIKey/JSON",UNVERIFIED: requires human check of compound formulation/stereochemistry
+nutlin-3a (-),1047,,,,,"https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/nutlin-3a%20%28-%29/property/SMILES,InChIKey/JSON",UNVERIFIED: requires human check of compound formulation/stereochemistry
+pd0325901,1060,,,,,"https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/pd0325901/property/SMILES,InChIKey/JSON",UNVERIFIED: requires human check of compound formulation/stereochemistry
+staurosporine,1034,,,,,"https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/staurosporine/property/SMILES,InChIKey/JSON",UNVERIFIED: requires human check of compound formulation/stereochemistry
+mk-2206,1053,,,,,"https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/mk-2206/property/SMILES,InChIKey/JSON",UNVERIFIED: requires human check of compound formulation/stereochemistry
+docetaxel,1007;1819,,,,,"https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/docetaxel/property/SMILES,InChIKey/JSON",UNVERIFIED: requires human check of compound formulation/stereochemistry
+palbociclib,1054,,,,,"https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/palbociclib/property/SMILES,InChIKey/JSON",UNVERIFIED: requires human check of compound formulation/stereochemistry
+pictilisib,1058,,,,,"https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/pictilisib/property/SMILES,InChIKey/JSON",UNVERIFIED: requires human check of compound formulation/stereochemistry
+selumetinib,1062;1736,,,,,"https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/selumetinib/property/SMILES,InChIKey/JSON",UNVERIFIED: requires human check of compound formulation/stereochemistry
+oxaliplatin,1089;1806,,,,,"https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/oxaliplatin/property/SMILES,InChIKey/JSON",UNVERIFIED: requires human check of compound formulation/stereochemistry
+navitoclax,1011,,,,,"https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/navitoclax/property/SMILES,InChIKey/JSON",UNVERIFIED: requires human check of compound formulation/stereochemistry
+mk-1775,1179,,,,,"https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/mk-1775/property/SMILES,InChIKey/JSON",UNVERIFIED: requires human check of compound formulation/stereochemistry
+linsitinib,1510,,,,,"https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/linsitinib/property/SMILES,InChIKey/JSON",UNVERIFIED: requires human check of compound formulation/stereochemistry
+taselisib,1561,,,,,"https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/taselisib/property/SMILES,InChIKey/JSON",UNVERIFIED: requires human check of compound formulation/stereochemistry
+trametinib,1372,,,,,"https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/trametinib/property/SMILES,InChIKey/JSON",UNVERIFIED: requires human check of compound formulation/stereochemistry
+olaparib,1017,,,,,"https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/olaparib/property/SMILES,InChIKey/JSON",UNVERIFIED: requires human check of compound formulation/stereochemistry
+pd173074,1049,,,,,"https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/pd173074/property/SMILES,InChIKey/JSON",UNVERIFIED: requires human check of compound formulation/stereochemistry
+fulvestrant,1200;1816,,,,,"https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/fulvestrant/property/SMILES,InChIKey/JSON",UNVERIFIED: requires human check of compound formulation/stereochemistry

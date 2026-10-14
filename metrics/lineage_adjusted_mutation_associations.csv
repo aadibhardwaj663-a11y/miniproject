@@ -1,0 +1,9 @@
+drug,gene,lineage_adjusted_effect,permutation_p_two_sided,label
+nutlin-3a (-),TP53,1.876584935647643,0.001,exploratory; within-lineage label permutation
+selumetinib,KRAS,-1.1008700285056698,0.046,exploratory; within-lineage label permutation
+selumetinib,BRAF,-1.006926012058043,0.036,exploratory; within-lineage label permutation
+trametinib,KRAS,-0.9531872946225214,0.171,exploratory; within-lineage label permutation
+trametinib,BRAF,-1.329476651553325,0.024,exploratory; within-lineage label permutation
+taselisib,PIK3CA,-1.8594294626064802,0.001,exploratory; within-lineage label permutation
+pictilisib,PIK3CA,-0.8617448119258021,0.04,exploratory; within-lineage label permutation
+mk-2206,PTEN,-0.2830723379861404,0.549,exploratory; within-lineage label permutation

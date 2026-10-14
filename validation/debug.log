@@ -1,0 +1,23 @@
+START both 107
+SPLIT_DONE both 107
+VAL_DESIGN_DONE both 107
+VALIDATION_DONE both 107
+FINAL_DESIGN_DONE both 107
+BEGIN_VARIANT all both 107
+PRED_APP_START both 107
+PRED_APP_DONE both 107
+BEGIN_VARIANT expression_drug both 107
+BEGIN_VARIANT panel_drug both 107
+BEGIN_VARIANT drug_only both 107
+BEGIN_VARIANT cell_only both 107
+both seed107 train=2400 test=200 full=3.253 val_full=2.199
+SUMMARY
+mode         variant  n_seeds  rmse_mean  rmse_sd  mae_mean  pearson_mean
+both       cell_only        1      3.253      NaN     2.664         0.224
+both     global_mean        1      3.338      NaN     2.738           NaN
+both       ridge_all        1      3.575      NaN     3.011        -0.133
+both expression_drug        1      3.605      NaN     3.008        -0.161
+both      panel_drug        1      3.623      NaN     3.032        -0.342
+both       drug_only        1      3.646      NaN     3.023        -0.604
+both             all        1      4.295      NaN     3.552        -0.222
+elapsed 5.021031856536865

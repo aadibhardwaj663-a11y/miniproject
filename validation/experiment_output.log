@@ -1,0 +1,43 @@
+START cell 107
+SPLIT_DONE cell 107
+VAL_DESIGN_DONE cell 107
+VALIDATION_DONE cell 107
+FINAL_DESIGN_DONE cell 107
+BEGIN_VARIANT all cell 107
+PRED_APP_START cell 107
+PRED_APP_DONE cell 107
+BEGIN_VARIANT expression_drug cell 107
+BEGIN_VARIANT panel_drug cell 107
+BEGIN_VARIANT drug_only cell 107
+BEGIN_VARIANT cell_only cell 107
+cell seed107 train=3200 test=800 full=3.101 val_full=1.586
+START cell 207
+SPLIT_DONE cell 207
+VAL_DESIGN_DONE cell 207
+VALIDATION_DONE cell 207
+FINAL_DESIGN_DONE cell 207
+BEGIN_VARIANT all cell 207
+PRED_APP_START cell 207
+PRED_APP_DONE cell 207
+BEGIN_VARIANT expression_drug cell 207
+BEGIN_VARIANT panel_drug cell 207
+BEGIN_VARIANT drug_only cell 207
+BEGIN_VARIANT cell_only cell 207
+cell seed207 train=3200 test=800 full=3.114 val_full=1.648
+START cell 307
+SPLIT_DONE cell 307
+VAL_DESIGN_DONE cell 307
+VALIDATION_DONE cell 307
+FINAL_DESIGN_DONE cell 307
+BEGIN_VARIANT all cell 307
+PRED_APP_START cell 307
+PRED_APP_DONE cell 307
+BEGIN_VARIANT expression_drug cell 307
+BEGIN_VARIANT panel_drug cell 307
+BEGIN_VARIANT drug_only cell 307
+BEGIN_VARIANT cell_only cell 307
+cell seed307 train=3200 test=800 full=3.041 val_full=1.727
+START cell 407
+SPLIT_DONE cell 407
+VAL_DESIGN_DONE cell 407
+VALIDATION_DONE cell 407
