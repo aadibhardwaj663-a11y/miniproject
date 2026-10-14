@@ -1,0 +1,5 @@
+split,model,n,rmse,mae,pearson_r,training_observations,test_observations,train_unique_cells,test_unique_cells,train_unique_drugs,test_unique_drugs
+unseen_cell,training_mean,800,3.02719165639199,2.4612336217,,3200,800,160,40,20,20
+unseen_cell,random_forest,800,1.4933991671333247,1.139457844690428,0.8713088668937147,3200,800,160,40,20,20
+unseen_drug,training_mean,1000,3.279301305190962,2.6731409314800003,,3000,1000,200,200,15,5
+unseen_drug,random_forest,1000,3.6343912367584137,2.7307281079017294,0.39118060370315133,3000,1000,200,200,15,5

@@ -1,0 +1,21 @@
+drug_group,canonical_drug_id,source_drug_ids_all,covered_cells,source_names,source_target,source_pathway
+mg-132,1862,1862,649,MG-132,"Proteasome, CAPN1",Protein stability and degradation
+camptothecin,1003,1003,648,Camptothecin,TOP1,DNA replication
+5-fluorouracil,1073,1073,648,5-Fluorouracil,Antimetabolite (DNA & RNA),Other
+nutlin-3a (-),1047,1047,648,Nutlin-3a (-),MDM2,p53 pathway
+pd0325901,1060,1060,648,PD0325901,"MEK1, MEK2",ERK MAPK signaling
+staurosporine,1034,1034,648,Staurosporine,Broad spectrum kinase inhibitor,RTK signaling
+mk-2206,1053,1053,648,MK-2206,"AKT1, AKT2",PI3K/MTOR signaling
+docetaxel,1007,1007;1819,647,Docetaxel,Microtubule stabiliser,Mitosis
+palbociclib,1054,1054,648,Palbociclib,"CDK4, CDK6",Cell cycle
+pictilisib,1058,1058,647,Pictilisib,PI3K (class 1),PI3K/MTOR signaling
+selumetinib,1062,1062;1736,634,Selumetinib,"MEK1, MEK2",ERK MAPK signaling
+oxaliplatin,1089,1089;1806,647,Oxaliplatin,DNA alkylating agent,DNA replication
+navitoclax,1011,1011,647,Navitoclax,"BCL2, BCL-XL, BCL-W",Apoptosis regulation
+mk-1775,1179,1179,647,MK-1775,"WEE1, PLK1",Cell cycle
+linsitinib,1510,1510,647,Linsitinib,IGF1R,IGF1R signaling
+taselisib,1561,1561,647,Taselisib,PI3K (beta sparing),PI3K/MTOR signaling
+trametinib,1372,1372,647,Trametinib,"MEK1, MEK2",ERK MAPK signaling
+olaparib,1017,1017,647,Olaparib,"PARP1, PARP2",Genome integrity
+pd173074,1049,1049,647,PD173074,"FGFR1, FGFR2, FGFR3",RTK signaling
+fulvestrant,1200,1200;1816,644,Fulvestrant,ESR,Hormone-related

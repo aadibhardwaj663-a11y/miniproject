@@ -1,0 +1,5 @@
+split,phase,candidate,n,rmse,mae
+unseen_cell,inner_validation,per_drug_training_mean,640,1.760882398588692,1.3802894482910157
+unseen_cell,outer_test_revisit,per_drug_training_mean,800,1.6392126567708822,1.259501533265625
+unseen_drug,inner_validation,pathway_shrunk_training_mean,600,4.21694385500837,3.66544524035
+unseen_drug,outer_test_revisit,pathway_shrunk_training_mean,1000,3.8157817900335793,3.09318475414

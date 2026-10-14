@@ -1,0 +1,34 @@
+drug_group,alias,evidence,status
+5-fluorouracil,fluorouracil,https://www.cancer.gov/publications/dictionaries/cancer-drug/def/fluorouracil,externally documented synonym
+5-fluorouracil,5-FU,https://www.cancer.gov/publications/dictionaries/cancer-drug/def/fluorouracil,externally documented synonym
+5-fluorouracil,5FU,https://www.cancer.gov/publications/dictionaries/cancer-drug/def/fluorouracil,externally documented synonym
+palbociclib,PD-0332991,https://www.cancer.gov/publications/dictionaries/cancer-drug/def/palbociclib,externally documented synonym
+palbociclib,Ibrance,https://www.cancer.gov/publications/dictionaries/cancer-drug/def/palbociclib,externally documented synonym
+trametinib,GSK1120212,https://pubchem.ncbi.nlm.nih.gov/compound/trametinib,externally documented synonym
+trametinib,GSK-1120212,https://pubchem.ncbi.nlm.nih.gov/compound/trametinib,externally documented synonym
+navitoclax,ABT-263,https://www.cancer.gov/publications/dictionaries/cancer-drug/def/navitoclax,externally documented synonym
+staurosporine,AM-2282,https://pubchem.ncbi.nlm.nih.gov/compound/Staurosporine,externally documented synonym
+pd0325901,mirdametinib,https://www.cancer.gov/publications/dictionaries/cancer-drug/def/mirdametinib,externally documented synonym
+pd0325901,PD-0325901,https://www.cancer.gov/publications/dictionaries/cancer-drug/def/mirdametinib,externally documented synonym
+mk-1775,adavosertib,https://www.cancer.gov/publications/dictionaries/cancer-drug/def/adavosertib,externally documented synonym
+mk-1775,AZD1775,https://www.cancer.gov/publications/dictionaries/cancer-drug/def/adavosertib,externally documented synonym
+mg-132,mg-132,uploaded GDSC2 DRUG_NAME,source primary name
+camptothecin,camptothecin,uploaded GDSC2 DRUG_NAME,source primary name
+5-fluorouracil,5-fluorouracil,uploaded GDSC2 DRUG_NAME,source primary name
+nutlin-3a (-),nutlin-3a (-),uploaded GDSC2 DRUG_NAME,source primary name
+pd0325901,pd0325901,uploaded GDSC2 DRUG_NAME,source primary name
+staurosporine,staurosporine,uploaded GDSC2 DRUG_NAME,source primary name
+mk-2206,mk-2206,uploaded GDSC2 DRUG_NAME,source primary name
+docetaxel,docetaxel,uploaded GDSC2 DRUG_NAME,source primary name
+palbociclib,palbociclib,uploaded GDSC2 DRUG_NAME,source primary name
+pictilisib,pictilisib,uploaded GDSC2 DRUG_NAME,source primary name
+selumetinib,selumetinib,uploaded GDSC2 DRUG_NAME,source primary name
+oxaliplatin,oxaliplatin,uploaded GDSC2 DRUG_NAME,source primary name
+navitoclax,navitoclax,uploaded GDSC2 DRUG_NAME,source primary name
+mk-1775,mk-1775,uploaded GDSC2 DRUG_NAME,source primary name
+linsitinib,linsitinib,uploaded GDSC2 DRUG_NAME,source primary name
+taselisib,taselisib,uploaded GDSC2 DRUG_NAME,source primary name
+trametinib,trametinib,uploaded GDSC2 DRUG_NAME,source primary name
+olaparib,olaparib,uploaded GDSC2 DRUG_NAME,source primary name
+pd173074,pd173074,uploaded GDSC2 DRUG_NAME,source primary name
+fulvestrant,fulvestrant,uploaded GDSC2 DRUG_NAME,source primary name

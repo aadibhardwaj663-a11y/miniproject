@@ -1,0 +1,26 @@
+# Chemical identity and leakage audit
+
+**Scope and status:** 286 normalized GDSC2 drug-name groups, 160,512 matched response pairs. **236/286 (82.5%)** have an original GDSC `DRUG_ID` linked to an external PubChem CID **and InChIKey** through a public GDSC drug annotation table. **50/286 lack an assay-ID-linked CID and exact form**. This is a major upgrade over the original **20 locally mapped SMILES**; it is not evidence that the actual purchased salt, stereochemistry, dilution, mixture, or batch was established for 236 drugs.
+
+The complete inspectable row-level register is `research/full_gdsc/identity_audit/drug_identity_review.csv`, including canonical GDSC ID, PubChem CID, InChIKey, status, original source URLs, prior annotations, number of measured response pairs, and manual-review conflicts. Other audit evidence: `audit.json`, `shared_chemical_identifiers.csv`, `needs_manual_review.csv` and `external_gdsc_compound_mapping.tsv` (236 immutable `Drug_ID:CID:InChIKey` source-derived records). It is strictly wrong to claim these 236 were experimentally verified using assay lot information.
+
+## Sources and verification
+
+- `GCNPath2026` `data/drug_data/Anno_Drugs.csv` (GDSC `Drug_ID` -> `Drug_CID`). Git blob SHA1 `386378bf486f4384af71195c2f278eda9ac326fa`.
+- `GCNPath2026` `data/drug_data/SMILES_GDSC.csv` (`Drug_CID` -> `INCHI_Key` and canonical/isomeric SMILES). Git blob SHA1 `40628645d02943f0fe2cad6520713cbee2882a08`.
+- Source: https://github.com/MinhoLee-DGU/GCNPath2026/tree/main/data/drug_data
+- Compound detail examples: https://pubchem.ncbi.nlm.nih.gov/compound/3385 ; https://pubchem.ncbi.nlm.nih.gov/compound/46930998
+- Download and verify upstream CSVs (requires outbound Internet): `python model_code/fetch_and_verify_gdsc_structures.py`. It refuses changed source hashes and confirms every source linkage before exporting stereochemical SMILES. The current project already includes all 236 vetted-linked CIDs and InChIKeys, so its tests and models work offline. **Full upstream SMILES CSVs were not packaged** because direct data retrieval to the processing container was unavailable during this release; they can be reproduced with the script.
+- Optional PubChem PUG REST then ChEMBL fallback for **name-search candidates only**: `python model_code/lookup_unresolved_candidates.py`. Hits remain separate `online_name_lookup_CANDIDATES_UNVERIFIED.csv`; not used for splits or feature generation until the source assay identity is confirmed. In this release there is **no pretense** that an inaccessible online service validated the remaining 50.
+
+## Known contradictions and corrections
+
+`bleomycin` and `bleomycin (50 um)` map to one PubChem CID and previously occurred in **different drug-name folds**. `bdoca000347a` and `of-1` also share a CID; both are explicitly flagged. Two **further parent-form candidates**, `gsk-lsd1` / `gsk-lsd1-2hcl` and `gsk2830371` / `gsk2830371a`, are kept together conservatively but are **NOT** relabeled as experimentally identical molecules. The exact CIDs for the suffixed assay codes remain unverified. `mk-2206` and `oxaliplatin` have *conflicting prior* molecular forms or salts across sources. The old 20-structure register is retained for traceability only, and is not silently substituted for source-linked CIDs.
+
+**Collision-safe ID-based five-fold benchmark:** `model_code/chemical_grouped_benchmark.py` groups the 282 *known/provisional* identity keys instead of drug names. Known same-CID names are never on opposite sides of a fold. Unknown drugs are keyed by GDSC assay ID, **not proven chemically independent**. This removes **known** synonym leakage but cannot rule out unknown cross-database synonyms, shared active moieties with differing salts or stereochemistry, or compound-family similarity. Do not describe this as globally guaranteed chemistry-disjoint or as an untouched test set.
+
+The new identity-grouped evaluation was added **after inspecting earlier test-set results and known aliases**. Therefore treat it as a **retrospective robustness check** rather than fresh prospective or external validation. No publication-level claim follows from a 2% reduction against annotations-only in joint-cold prediction.
+
+## Secondary database searches and intentionally unresolved cases
+
+The separate **`secondary_database_CANDIDATES_NOT_ASSAY_VERIFIED.csv`** contains four externally sourced candidate active-parent structures not found as exact GDSC-ID/CID entries in the 236-reference join, including `GSK2256098C` and `GSK626616AC`. Published pharmacology identifies `GSK626616AC` as a **meglumine-monohydrate salt** of GSK626616, rather than the free compound itself. PubChem CID **135416229** therefore describes its active parent and must **not** be silently inserted as the exact assay molecule. For `GSK-LSD1-2HCl` and `GSK2830371A`, conservative holdout parent grouping is used while the precise assayed species remains uncertain. These four candidates are source documented but **do not** count as verified assay-ID-to-structure matches; accordingly 236/286 is unchanged. The missing names also include internal screening IDs, for which a superficially similar chemical found by keyword searching is not sufficient evidence. See the optional PubChem and ChEMBL bulk candidate script.

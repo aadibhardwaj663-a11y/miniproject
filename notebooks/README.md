@@ -1,0 +1,1 @@
+The executed notebook here is retained from a smaller **200-cell × 20-drug** exploratory benchmark. It is NOT an executed notebook of the primary 649-cell × 286-drug five-fold study. The primary study's reproducible Python entry points are in `model_code/`, and its actual fold predictions, metrics and split IDs are stored under `research/full_gdsc/`.

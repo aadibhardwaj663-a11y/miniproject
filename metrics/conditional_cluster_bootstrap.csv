@@ -1,0 +1,3 @@
+split,cluster,unique_test_clusters,bootstrap_repeats,rf_minus_baseline_rmse,conditional_CI_lower,conditional_CI_upper,interpretation
+unseen_cell,held-out cell line,40,2000,-0.14581348963755758,-0.28621657321125443,0.015556919089984581,"Post-hoc, conditional on this fixed outer split; not across-split performance uncertainty"
+unseen_drug,held-out compound group,5,2000,-0.18139055327516562,-1.5448912406681057,0.5098934223677207,"Post-hoc, conditional on this fixed outer split; not across-split performance uncertainty"

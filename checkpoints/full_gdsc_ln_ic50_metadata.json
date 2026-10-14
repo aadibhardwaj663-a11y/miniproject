@@ -1,0 +1,29 @@
+{
+  "panel": [
+    "TP53",
+    "KRAS",
+    "BRAF",
+    "EGFR",
+    "PIK3CA",
+    "PTEN",
+    "APC",
+    "RB1",
+    "MYC",
+    "CDKN2A"
+  ],
+  "training_observations": 160512,
+  "data_source": "research/full_gdsc/matched_responses.csv",
+  "model_role": "all-data inference, NO held-out performance claim",
+  "feature_matrix": {
+    "num_cell": 120,
+    "num_drug": 569,
+    "total": 689
+  },
+  "response": "LN_IC50",
+  "training_seed": 27013,
+  "feature_generation": "100 largest expression variances on all 649 training cells; fixed 10 mutation and 10 CN; training-fit drug identity/target/pathway",
+  "model_family": "Ridge alpha 100; sparse StandardScaler(with_mean=False), unlike dense CV training",
+  "unique_cells": 649,
+  "unique_drugs": 286,
+  "checkpoint_bytes": 25820
+}
