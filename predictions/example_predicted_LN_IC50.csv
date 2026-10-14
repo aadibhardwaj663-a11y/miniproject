@@ -1,0 +1,2 @@
+DepMap_ID,drug_group,predicted_LN_IC50,prediction_status
+ACH-000002,trametinib,-1.2172677516937256,inference_from_all_data_fit_NOT_heldout

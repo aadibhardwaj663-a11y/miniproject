@@ -1,0 +1,2 @@
+DepMap_ID,drug_group,fold,observed_LN_IC50,predicted_LN_IC50,pred_global_mean,pred_drug_mean,prediction_status
+ACH-000002,trametinib,3,-3.320144,-1.3200772,2.9168431305111486,0.1066986382978723,out_of_fold_cell
